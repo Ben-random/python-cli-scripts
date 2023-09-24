@@ -11,8 +11,8 @@ def sample_func():
     rprint("[red bold]Hi[/red bold] [yellow]World[yello]")
 
 @app.command("hello")
-def sample_func():
-    rprint("[red bold]Hello[/red bold] [yellow]World[yello]")
+def sample_func(name):
+    rprint("[red bold]Hello[/red bold]", name)
 
 
 
